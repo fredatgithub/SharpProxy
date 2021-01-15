@@ -48,7 +48,7 @@
             this.btnStart.TabIndex = 0;
             this.btnStart.Text = "&Start";
             this.btnStart.UseVisualStyleBackColor = true;
-            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
+            this.btnStart.Click += new System.EventHandler(this.BtnStart_Click);
             // 
             // btnStop
             // 
@@ -59,7 +59,7 @@
             this.btnStop.TabIndex = 1;
             this.btnStop.Text = "S&top";
             this.btnStop.UseVisualStyleBackColor = true;
-            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
+            this.btnStop.Click += new System.EventHandler(this.BtnStop_Click);
             // 
             // label1
             // 
@@ -77,7 +77,7 @@
             this.txtExternalPort.Name = "txtExternalPort";
             this.txtExternalPort.Size = new System.Drawing.Size(189, 20);
             this.txtExternalPort.TabIndex = 3;
-            this.txtExternalPort.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPorts_KeyPress);
+            this.txtExternalPort.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtPorts_KeyPress);
             // 
             // txtInternalPort
             // 
@@ -86,7 +86,7 @@
             this.txtInternalPort.Name = "txtInternalPort";
             this.txtInternalPort.Size = new System.Drawing.Size(189, 20);
             this.txtInternalPort.TabIndex = 5;
-            this.txtInternalPort.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPorts_KeyPress);
+            this.txtInternalPort.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtPorts_KeyPress);
             // 
             // label2
             // 
@@ -148,7 +148,7 @@
             this.Name = "frmMain";
             this.Text = "SharpProxy";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
-            this.Shown += new System.EventHandler(this.frmMain_Shown);
+            this.Shown += new System.EventHandler(this.FrmMain_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();
 
